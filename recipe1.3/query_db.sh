@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Recipe 1.3. Finding Rows That Satisfy Multiple Conditions
+
 set -eo pipefail
 
 sqlite3 db.sqlite3 << 'EOF'
